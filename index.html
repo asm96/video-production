@@ -6,15 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Главная | Video Production</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper main-page-wrapper">
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
-          <a href="#" class="logo">
-            <img src="" alt="logo company" class="logo__img">
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="video-production logo" class="logo__img">
           </a>
           <nav class="menu">
             <ul class="menu__list">
@@ -31,74 +35,91 @@
           </nav>
           <address class="contacts">
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            <div class="contacts__info">График работы</div>
+            <div class="contacts__dropdown-title">График работы</div>
           </address>
         </div>
       </header>
       <main class="main-content">
-        <section class="hello">
+        <section class="hero">
           <div class="container">
-            <h1 class="hello__title">Снимем для вас
-              креативное видео</h1>
-            <div class="hello__text">Креативный видеопродакшн полного цикла</div>
-            <a href="#" class="hello_button button">Подробнее</a>
+            <div class="hero__text">
+              <h1 class="hero__title">Снимем для вас
+                креативное видео</h1>
+              <div class="hero__subtitle">Креативный видеопродакшн полного цикла</div>
+              <a href="#" class="btn hero__btn">Подробнее</a>
+            </div>
           </div>
         </section>
         <section class="offers">
           <div class="container">
             <ul class="offers__list">
               <li class="offers__item">
-                <img src="#" alt="offer icon" class="offers__img">
+                <div class="offers__header">
+                  <img src="./img/offers/tv.png" alt="offer icon" class="offers__img">
+                </div>
                 <div class="offers__content">
                   <h3 class="offers__title">Реклама</h3>
                   <div class="offers_features">
-                    <div class="offer__feature">
-                      <div class="offers__feature-text">От 5 человек
+                    <div class="offers__feature">
+                      <div class="offers__feature-text">От <span class="bold">5</span> человек
                         на проект</div>
                     </div>
-                    <div class="offer__feature">
-                      <div class="offers__feature-text">28 дней работы
+                    <div class="offers__feature">
+                      <div class="offers__feature-text"><span class="bold">28</span> дней работы
                         в среднем</div>
                     </div>
                   </div>
-                  <p class="offers__text">Креатив и производство рекламы, документального и корпоративного контента.</p>
-                  <a href="#" class="button button--light">Подробнее</a>
+                  <div class="offers__text">Креатив и производство рекламы, документального и корпоративного контента.
+                  </div>
+                  <div class="offers_btn-wrapper">
+                    <a href="#" class="btn btn--light">Подробнее</a>
+                  </div>
                 </div>
               </li>
-              <li class="offers__item">
-                <img src="#" alt="offer icon" class="offers__img">
+              <li class="offers__item offers__item--primary">
+                <div class="offers__header">
+                  <img src="./img/offers/clapper.png" alt="offer icon" class="offers__img">
+                </div>
                 <div class="offers__content">
                   <h3 class="offers__title">Видео-клип</h3>
                   <div class="offers_features">
-                    <div class="offer__feature">
-                      <div class="offers__feature-text">От 7 человек
+                    <div class="offers__feature">
+                      <div class="offers__feature-text">От <span class="bold">7</span> человек
                         на проект</div>
                     </div>
-                    <div class="offer__feature">
-                      <div class="offers__feature-text">21 дней работы
+                    <div class="offers__feature">
+                      <div class="offers__feature-text"><span class="bold">21</span> дней работы
                         в среднем</div>
                     </div>
                   </div>
-                  <p class="offers__text">Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!</p>
-                  <a href="#" class="button">Подробнее</a>
+                  <div class="offers__text">Вы решили представиться своим слушателям, пополнить свой творческий багаж
+                    качественным видео? Прекрасно!</div>
+                  <div class="offers_btn-wrapper">
+                    <a href="#" class="btn">Подробнее</a>
+                  </div>
                 </div>
               </li>
               <li class="offers__item">
-                <img src="#" alt="offer icon" class="offers__img">
+                <div class="offers__header">
+                  <img src="./img/offers/film.png" alt="offer icon" class="offers__img">
+                </div>
                 <div class="offers__content">
                   <h3 class="offers__title">Свадьба</h3>
                   <div class="offers_features">
-                    <div class="offer__feature">
-                      <div class="offers__feature-text">От 2 человек
+                    <div class="offers__feature">
+                      <div class="offers__feature-text">От <span class="bold">2</span> человек
                         на проект</div>
                     </div>
-                    <div class="offer__feature">
-                      <div class="offers__feature-text">30 дней работы
+                    <div class="offers__feature">
+                      <div class="offers__feature-text"><span class="bold">30</span> дней работы
                         в среднем</div>
                     </div>
                   </div>
-                  <p class="offers__text">Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.</p>
-                  <a href="#" class="button button--light">Подробнее</a>
+                  <div class="offers__text">Получите живое видео своего самого счастливого дня, которое Вы будете
+                    пересматривать снова и снова.</div>
+                  <div class="offers_btn-wrapper">
+                    <a href="#" class="btn btn--light">Подробнее</a>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -106,40 +127,55 @@
         </section>
         <section class="news">
           <div class="container">
-            <h2 class="title">Новости и акции</h2>
+            <h2 class="news__title">Новости и акции</h2>
             <ul class="news__list">
               <li class="news__item">
-                <img src="#" alt="news image" class="news__img">
-                <div class="news__date">Декабрь 2019</div>
-                <h4 class="title">Снимем ваш клип на 50% дешевле</h4>
-                <div class="news__text">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты. </div>
+                <div class="news__cover">
+                  <img src="./img/news/camera.png" alt="news image" class="news__img">
+                </div>
+                <div class="news__text-content">
+                  <div class="news__date">Декабрь 2019</div>
+                  <h4 class="news__title-item">Снимем ваш клип на 50% дешевле</h4>
+                  <div class="news__text">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты.</div>
+                </div>
               </li>
               <li class="news__item">
-                <img src="#" alt="news image" class="news__img">
-                <div class="news__date">Декабрь 2019</div>
-                <h4 class="title">Акция для молодоженов 30%</h4>
-                <div class="news__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</div>
+                <div class="news__cover">
+                  <img src="./img/news/wedding.png" alt="news image" class="news__img">
+                </div>
+                <div class="news__text-content">
+                  <div class="news__date">Декабрь 2019</div>
+                  <h4 class="news__title-item">Акция для молодоженов 30%</h4>
+                  <div class="news__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</div>
+                </div>
               </li>
             </ul>
-            <div class="paginator">
-              <div class="paginator__display">Страница 1 из 7</div>
-              <li class="paginator__item">1</li>
-              <li class="paginator__item">2</li>
-              <li class="paginator__item">3</li>
-              <li class="paginator__item">4</li>
-              <li class="paginator__item">5</li>
-              <li class="paginator__item">6</li>
-              <li class="paginator__item">7</li>
+            <div class="pager">
+              <div class="pager__display">Страница 1 из 7</div>
+              <ul class="pager__list">
+                <li class="pager__item pager__item--active"><a href="#" class="pager__link">1</a></li>
+                <li class="pager__item"><a href="#" class="pager__link">2</a></li>
+                <li class="pager__item"><a href="#" class="pager__link">3</a></li>
+                <li class="pager__item"><a href="#" class="pager__link">4</a></li>
+                <li class="pager__item"><a href="#" class="pager__link">5</a></li>
+                <li class="pager__item"><a href="#" class="pager__link">6</a></li>
+                <li class="pager__item"><a href="#" class="pager__link">7</a></li>
+              </ul>
             </div>
           </div>
         </section>
         <section class="about">
           <div class="container">
-            <img src="#" alt="background image" class="about">
-            <div class="about__item">
-              <h2 class="title title--dark">О нас</h2>
-              <div class="about__text"><p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p></div>
-              <a href="#" class="button">Подробнее</a>
+            <div class="about__section">
+              <div class="about__item">
+                <h2 class="title about__title">О нас</h2>
+                <div class="about__text">
+                  <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                    менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
+                    выступлений в домашних условиях.</p>
+                </div>
+                <a href="#" class="btn about__btn">Подробнее</a>  
+            </div>
             </div>
           </div>
         </section>
@@ -147,10 +183,10 @@
     </div>
     <footer class="footer">
       <div class="container footer__container">
-        <a href="#" class="logo">
-          <img src="" alt="logo company" class="logo__img">
+        <a href="/" class="logo logo--footer">
+          <img src="./img/logo.png" alt="video-production logo" class="logo__img">
         </a>
-        <nav class="menu">
+        <nav class="menu menu--footer">
           <ul class="menu__list">
             <li class="menu__item">
               <a href="#" class="menu__link">Главная</a>
@@ -164,28 +200,24 @@
           </ul>
         </nav>
         <ul class="social">
-          <li class="social__item">
+          <li class="social__item social__item--tg">
             <a href="#" class="social__link">
-              <img src="#" alt="Telegram" class="social__icon">
             </a>
           </li>
-          <li class="social__item">
+          <li class="social__item social__item--vk">
             <a href="#" class="social__link">
-              <img src="#" alt="VK" class="social__icon">
             </a>
           </li>
-          <li class="social__item">
+          <li class="social__item social__item--fb">
             <a href="#" class="social__link">
-              <img src="#" alt="Facebook" class="social__icon">
             </a>
           </li>
-          <li class="social__item">
+          <li class="social__item social__item--inst">
             <a href="#" class="social__link">
-              <img src="#" alt="Instagram" class="social__icon">
             </a>
           </li>
         </ul>
-        <address class="contacts">
+        <address class="contacts contacts--footer">
           <div class="contacts__info">Бесплатный звонок по России</div>
           <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
         </address>
