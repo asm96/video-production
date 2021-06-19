@@ -16,7 +16,6 @@
   background: #fff;
   color: #666;
   border-radius: 5px;
-  vertical-align: middle;
   display: flex;
   flex-direction: column;
 }
