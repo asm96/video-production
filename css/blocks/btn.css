@@ -1,0 +1,32 @@
+.btn {
+  background: #FF5500;
+  border-radius: 35px;
+  padding: 18px 55px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn_hero {
+  background: #FF3D00;
+  padding: 18px 55px;
+}
+
+.btn_light {
+  background: #fff;
+  color: #FF5500;
+  border: 2px solid #FF5500;
+}
+
+.btn_about {
+  background: #FF5400;
+  padding: 18px 40px;
+}
+
+.btn:hover {
+  background: #FF3D00;
+  color: #fff;
+}

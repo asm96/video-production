@@ -1,0 +1,62 @@
+.news {
+  margin-bottom: 145px;
+}
+
+.news__list {
+  margin-bottom: 53px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__title {
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.news__item {
+  margin-right: 4%;
+  flex: 1;
+}
+
+.news__item:last-child {
+  margin-right: 0;
+}
+
+.single-news {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 394px;
+  min-width: 557px;
+  justify-content: flex-end;
+}
+
+.single-news_camera {
+  background-image: url(../../img/news/camera.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.single-news_wedding {
+  background-image: url(../../img/news/wedding.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.single-news__text-content {
+  padding: 21px 30px;
+  min-height: 160px;
+}
+
+.single-news__date {
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.single-news__title-item {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
