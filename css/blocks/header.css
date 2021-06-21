@@ -3,6 +3,10 @@
   margin-bottom: 158px;
 }
 
+.header_top-line {
+  margin-bottom: 30px;
+}
+
 .header__container {
   display: flex;
   justify-content: space-between;
