@@ -3,7 +3,7 @@
   display: block;
   width: 490px;
   height: 505px;
-  background: url("../../img/cameraman.png") center center / cover no-repeat;
+  background: url("../../img/decor/cameraman.png") center center / cover no-repeat;
 }
 
 .about__section {
@@ -16,7 +16,7 @@
   padding: 70px 80px;
   max-width: 785px;
   border-radius: 5px;
-  margin-left: -139px;
+  margin-left: -135px;
   margin-top: 97px;
 }
 

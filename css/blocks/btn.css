@@ -16,6 +16,7 @@
 }
 
 .btn_light {
+  padding: 16px 53px;
   background: #fff;
   color: #FF5500;
   border: 2px solid #FF5500;
@@ -29,4 +30,18 @@
 .btn:hover {
   background: #FF3D00;
   color: #fff;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: auto;
+}
+
+.btn-wrapper_offer {
+  margin-bottom: 29px;
+}
+
+.btn-wrapper_service {
+  margin-bottom: 13px;
 }

@@ -8,7 +8,7 @@
 }
 
 .offers__item {
-  width: calc(100% / 3 - 15px);
+  width: calc(100% / 3 - 18px);
 }
 
 .offer {
@@ -28,6 +28,10 @@
   border: 5px solid #CCC;
 }
 
+.offer_primary .offer__content {
+  padding: 18px 17px;
+}
+
 .offer__header {
   min-height: 122px;
   display: flex;
@@ -36,8 +40,9 @@
 }
 
 .offer__img {
-  display: inline-block;
-  margin: 30px;
+  margin-left: 25px;
+  margin-top: 35px;
+  margin-bottom: 15px;
 }
 
 .offer__content {
@@ -61,7 +66,7 @@
 }
 
 .offer__feature {
-  margin-right: 56px;
+  margin-right: 66px;
 }
 
 .offer__feature:last-child {
@@ -70,12 +75,6 @@
 
 .offer__text {
   font-size: 14px;
-  margin-bottom: 29px;
+  margin-bottom: 15px;
   line-height: 1.57;
-}
-
-.offer__btn-wrapper {
-  display: flex;
-  justify-content: flex-start;
-  margin-top: auto;
 }

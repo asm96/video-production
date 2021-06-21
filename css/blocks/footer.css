@@ -1,15 +1,24 @@
-.footer__container {
-  min-height: 142px;
-  margin-top: 55px;
-  border-top: 1px solid rgba(255, 255, 255, .1);
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.footer_main {
+  min-height: 142px;
+  margin-top: 55px;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer_inner {
+  min-height: 132px;
+  padding: 40px 0;
+}
+
 .footer__col {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer__col_align-right {
