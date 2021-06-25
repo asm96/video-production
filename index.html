@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=1200, initial-scale=1.0">
   <title>Главная | Video Production</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -18,7 +18,7 @@
       <header class="header">
         <div class="container header__container">
           <a href="./index.html" class="logo">
-            <img src="./img/logo.png" alt="video-production logo" class="logo__img">
+            <img src="./img/logo/logo.png" alt="video-production logo" class="logo__img">
           </a>
           <nav class="menu">
             <ul class="menu__list">
@@ -33,9 +33,17 @@
               </li>
             </ul>
           </nav>
-          <address class="contacts">
+          <address class="contacts contacts_header">
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            <div class="contacts__dropdown-title">График работы</div>
+            <div class="dropdown contacts__dropdown">
+              <a href="#" class="dropdown__link">График работы</a>
+              <div class="dropdown__menu">
+                <ul class="dropdown__list">
+                  <li class="dropdown__item dropdown__item_primary">пн-вс: 09:00 - 20:00</li>
+                  <li class="dropdown__item">Обед: 14:00-14:30</li>
+                </ul>
+              </div>
+            </div>
           </address>
         </div>
       </header>
@@ -145,7 +153,7 @@
               <li class="news__item single-news">
                 <div class="single-news single-news_camera">
                   <div class="single-news__text-content">
-                    <div class="single-news__date">Декабрь 2019</div>
+                    <time class="single-news__date">Декабрь 2019</time>
                     <h4 class="single-news__title-item">Снимем ваш клип на 50% дешевле</h4>
                     <div class="single-news__text">
                       <p>В честь Новогодних праздников мы раздаем огромные скидки, успейте
@@ -157,7 +165,7 @@
               <li class="news__item single-news">
                 <div class="single-news single-news_wedding">
                   <div class="single-news__text-content">
-                    <div class="single-news__date">Декабрь 2019</div>
+                    <time class="single-news__date">Декабрь 2019</time>
                     <h4 class="single-news__title-item">Акция для молодоженов 30%</h4>
                     <div class="single-news__text">
                       <p>Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех
@@ -201,7 +209,7 @@
         <div class="footer footer_main">
           <div class="footer__col">
             <a href="./index.html" class="logo logo_footer">
-              <img src="./img/logo.png" alt="video-production logo" class="logo__img">
+              <img src="./img/logo/logo.png" alt="video-production logo" class="logo__img">
             </a>
             <nav class="menu">
               <ul class="menu__list">
