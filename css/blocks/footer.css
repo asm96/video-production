@@ -1,17 +1,17 @@
-.footer {
+.footer__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer_main {
+.footer__container_main {
   min-height: 142px;
   margin-top: 57px;
   border-top: 1px solid rgba(255, 255, 255, .1);
   padding-bottom: 9px;
 }
 
-.footer_inner {
+.footer__container_inner {
   min-height: 132px;
   padding: 40px 0;
 }

@@ -6,13 +6,16 @@
 
 .hero__text {
   width: 68%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero__title {
   font-size: 72px;
   font-weight: 800;
   line-height: 1.37;
-  margin-bottom: 30px;
+  margin-bottom: 17px;
   text-align: center;
   vertical-align: bottom;
   text-transform: uppercase;
@@ -20,5 +23,5 @@
 
 .hero__subtitle {
   font-size: 18px;
-  margin-bottom: 28px;
+  margin-bottom: 40px;
 }

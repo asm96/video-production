@@ -55,7 +55,7 @@
 .offer__title {
   font-weight: bold;
   font-size: 32px;
-  margin-bottom: 16px;
+  margin-bottom: 17px;
   color: #000;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .offer__feature {
-  margin-right: 66px;
+  margin-right: 63px;
 }
 
 .offer__feature:last-child {
@@ -77,4 +77,8 @@
   font-size: 14px;
   margin-bottom: 15px;
   line-height: 1.57;
+}
+
+.offer__text_primary {
+  padding-right: 5px;
 }
