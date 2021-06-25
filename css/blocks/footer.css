@@ -6,8 +6,9 @@
 
 .footer_main {
   min-height: 142px;
-  margin-top: 55px;
+  margin-top: 57px;
   border-top: 1px solid rgba(255, 255, 255, .1);
+  padding-bottom: 9px;
 }
 
 .footer_inner {

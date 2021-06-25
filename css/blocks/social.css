@@ -15,39 +15,78 @@
 .social__link {
   display: block;
   text-decoration: none;
+  position: relative;
   width: 36px;
   height: 36px;
-  background: center center no-repeat;
 }
 
-.social__item_tg .social__link {
-  background-image: url(../../img/socials/tg.png);
+.social__link:hover {
+  opacity: 1;
 }
 
-.social__item_tg .social__link:hover {
-  background-image: url(../../img/socials/tg-hover.png);
+.social__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background:url(../../img/socials/socials_sprites.png);
+  transition: .3s;
 }
 
-.social__item_vk .social__link {
-  background-image: url(../../img/socials/vk.png);
+.social__link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background:url(../../img/socials/socials_sprites.png);
+  opacity: 0;
+  transition: .3s;
 }
 
-.social__item_vk .social__link:hover {
-  background-image: url(../../img/socials/vk-hover.png);
+.social__link:hover:after {
+  opacity: 0;
 }
 
-.social__item_fb .social__link {
-  background-image: url(../../img/socials/fb.png);
+.social__link:hover:before {
+  opacity: 1;
 }
 
-.social__item_fb .social__link:hover {
-  background-image: url(../../img/socials/fb-hover.png);
+.social__item_tg .social__link:after {
+  background-position: -122px -10px;
 }
 
-.social__item_inst .social__link {
-  background-image: url(../../img/socials/inst.png);
+.social__item_tg .social__link:before {
+  background-position: -122px -66px;
 }
 
-.social__item_inst .social__link:hover {
-  background-image: url(../../img/socials/inst-hover.png);
+.social__item_vk .social__link:after {
+  background-position: -10px -122px;
+}
+
+.social__item_vk .social__link:before {
+  background-position: -66px -122px;
+}
+
+.social__item_fb .social__link:after {
+  background-position: -10px -10px;
+}
+
+.social__item_fb .social__link:before {
+  background-position: -66px -10px;
+}
+
+.social__item_inst .social__link:after {
+  background-position: -10px -66px;
+}
+
+.social__item_inst .social__link:before {
+  background-position: -66px -66px;
 }

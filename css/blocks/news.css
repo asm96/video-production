@@ -46,13 +46,14 @@
 }
 
 .single-news__text-content {
-  padding: 21px 30px;
+  padding: 21px 32px;
   min-height: 160px;
 }
 
 .single-news__date {
+  display: block;
   font-size: 14px;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 
 .single-news__title-item {
