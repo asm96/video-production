@@ -12,6 +12,10 @@
   padding-bottom: 83px;
 }
 
+.page-content_reviews {
+  padding-top: 94px;
+}
+
 .services {
   margin-bottom: 57px;
 }
@@ -35,7 +39,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding: 12px 9px;
+  padding: 12px 0px 12px 9px;
 }
 
 .service__title {
@@ -48,35 +52,4 @@
 .service__desc {
   line-height: 1.7;
   margin-bottom: 35px;
-}
-
-.partners {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-left: -20px;
-}
-
-.partners__item {
-  margin-left: 46px;
-  margin-bottom: 27px;
-}
-
-.partners__item:nth-child(4n + 1) {
-  margin-left: 0px;
-}
-
-.partners__link {
-  text-decoration: none;
-  display: flex;
-  width: 220px;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
-  filter: grayscale(100%);
-  transition: .3s;
-}
-
-.partners__link:hover {
-  filter: grayscale(0);
 }

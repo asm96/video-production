@@ -6,14 +6,13 @@
 
 .footer__container_main {
   min-height: 142px;
-  margin-top: 57px;
+  margin-top: 55px;
   border-top: 1px solid rgba(255, 255, 255, .1);
-  padding-bottom: 9px;
 }
 
 .footer__container_inner {
   min-height: 132px;
-  padding: 40px 0;
+  padding: 44px 0;
 }
 
 .footer__col {

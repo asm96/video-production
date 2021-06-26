@@ -1,13 +1,20 @@
 .inner-section {
-  background: #fff;
+  background: #F4F5F5;
   color:#1A1B1E;
   padding-top: 88px;
   padding-bottom: 68px;
 }
 
-.inner-section_bg_grey {
-  background: #F4F5F5;
-  ;
+.inner-section_reviews {
+  padding-top: 78px;
+  padding-bottom: 96px;
+}
+
+.inner-section_reviews .inner-section__title {
+  font-weight: 800;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 55px;
 }
 
 .inner-section__title {

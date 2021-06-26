@@ -11,11 +11,6 @@
   transition: .3s;
 }
 
-.btn_hero {
-  background: #FF3D00;
-  padding: 18px 55px;
-}
-
 .btn_light {
   padding: 16px 53px;
   background: #fff;
@@ -28,9 +23,22 @@
   padding: 18px 40px;
 }
 
+.btn_reset {
+  background: #8E8E8E;
+  padding: 19px 45px;
+}
+
+.btn_submit {
+  padding: 19px 41px;
+}
+
 .btn:hover {
   background: #FF3D00;
   color: #fff;
+}
+
+.btn_reset:hover {
+  background: #2B2B2B;
 }
 
 .btn-wrapper {
