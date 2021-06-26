@@ -7,14 +7,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../../img/bg/rec.png) center top 158px no-repeat, url(../../img/bg/bg.png) center top / cover no-repeat;
+  background: url(../../img/bg/rec.png) center center no-repeat, url(../../img/bg/bg.png) center top / cover no-repeat;
 }
 
 .central {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 115px;
   opacity: 0;
   animation: rotateIn 1s .8s ease-in forwards;
 }
