@@ -28,7 +28,7 @@
 
 .dropdown:hover .dropdown__menu {
   display: block;
-  left: -62%;
+  right: 0;
   opacity: .8;
 }
 
@@ -42,7 +42,7 @@
   top: 100%;
   border-radius: 3px;
   margin-top: 7px;
-  left: -9999px;
+  right: -9999px;
   opacity: 0;
   transition: opacity .3s;
 }
