@@ -20,11 +20,7 @@
   height: 36px;
 }
 
-.social__link:hover {
-  opacity: 1;
-}
-
-.social__link:after {
+.social__link:before, .social__link:after {
   content: "";
   display: block;
   position: absolute;
@@ -34,29 +30,19 @@
   width: 36px;
   height: 36px;
   background:url(../../img/socials/socials_sprites.png);
-  transition: .3s;
+  transition: opacity .3s;
 }
 
 .social__link:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 36px;
-  height: 36px;
-  background:url(../../img/socials/socials_sprites.png);
-  opacity: 0;
-  transition: .3s;
-}
-
-.social__link:hover:after {
   opacity: 0;
 }
 
 .social__link:hover:before {
   opacity: 1;
+}
+
+.social__link:hover:after {
+  opacity: 0;
 }
 
 .social__item_tg .social__link:after {
