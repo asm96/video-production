@@ -23,4 +23,5 @@
 
 .controls__tag {
   padding: 9px 15px;
+  transition: .3s;
 }
