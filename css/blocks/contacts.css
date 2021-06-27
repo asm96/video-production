@@ -21,15 +21,14 @@
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: block;
   font-size: 13px;
   align-self: flex-end;
 }
 
 .dropdown:hover .dropdown__menu {
-  display: block;
-  right: 0;
   opacity: .8;
+  pointer-events: auto;
 }
 
 .dropdown__menu {
@@ -42,33 +41,33 @@
   top: 100%;
   border-radius: 3px;
   margin-top: 7px;
-  right: -9999px;
+  right: 0;
   opacity: 0;
   transition: opacity .3s;
+  pointer-events: none;
 }
 
 .dropdown__menu:before {
-  content: "";
-  display: block;
-  height: 15px;
-  left: 0;
-  right: 0;
-  top: -15px;
-  position: absolute;
-}
-
-.dropdown__menu::after {
   content: "";
   position: absolute;
   border: 9px solid transparent;
   width: 0px;
   height: 0px;
-  left: 60%;
+  right: 26%;
   bottom: 99%;
   border-bottom-color: #fff;
   border-top-width: 0;
   border-left-width: 11px;
   border-right-width: 11px;
+}
+
+.dropdown__menu:after {
+  content: "";
+  height: 15px;
+  left: 0;
+  right: 0;
+  top: -15px;
+  position: absolute;
 }
 
 .dropdown__link {
